@@ -14,6 +14,3 @@ locals {
  
 
 
-#Example      = setproduct(["${var.region}"],["${local.az_zone1}"],["${local.az_zone2}"],["${local.environment}"],["${local.os}"])
- # exmp             = "${var.region}${local.az_zone1}${local.az_zone2[0]}${local.environment[*]}${local.os[*]}}"
- #Example      = setproduct([var.region],[local.az_zone1],[local.az_zone2],[local.environment],[local.os])
